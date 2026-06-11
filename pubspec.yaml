@@ -1,0 +1,61 @@
+name: mealio
+description: "Mealio - Modern Recipe & Meal Planner"
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  sqflite: ^2.4.2
+  
+  path: ^1.9.1
+
+  cupertino_icons: ^1.0.8
+  cached_network_image: ^3.4.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_launcher_icons: ^0.13.1
+
+  
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.7
+
+
+flutter:
+
+  
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/categories/
+    - assets/images/recipes/
+    - assets/images/app_logo.png
+  
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_logo.png" # Logosunun tam konumu
+  min_sdk_android: 21
+
+
+flutter_native_splash:
+  color: "#FFFFFF" # Dümdüz, saf beyaz arka plan
+  android_12:
+    color: "#FFFFFF"
+  ios: true
