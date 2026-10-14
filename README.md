@@ -37,9 +37,6 @@ The application includes:
 - Shopping list
 - Profile and favorite recipes
 
-## 🎥 Project Presentation
-
-[Watch the project presentation on YouTube](https://youtu.be/jTG4vKFbXU8)
 
 ## 🚀 Getting Started
 
